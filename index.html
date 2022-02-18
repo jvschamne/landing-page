@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Crypto Trends</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <div id="navbar" class="navegation-bar">
+        <nav>
+            <a class="item-navbar" >Home</a>
+            <a class="item-navbar" >About Us</a>
+            <a class="item-navbar" >Pricing</a>
+            <a class="item-navbar" onclick="login()">Login</a>
+            <a class="item-navbar-signup" onclick="login()">Sign Up</a>
+        </nav>
+    </div>
+    <div id="container1" class="container1">
+        <div id="main-text">
+            <h1 id="headline">
+                Crypto Trends
+            </h1>
+            <p id="subheadline">The website that provides you trending information about cryptos and NFTs!</p>
+             <div id="divbotao">
+                <button id="botao" onclick="login()">Subscribe</button>
+             </div>
+        </div>
+        <img id="laptop" src="img.png" height="40%" width="40%">
+
+    </div>
+
+    <div id="login-popup" class="popup hidden">
+        <a id="close">
+            <i  class="fas fa-times" ></i>
+        </a>
+        
+        <h1 id="login-text">Faça o seu Login:</h1>
+        <form action="">
+            <div class="campo">
+                <input id="e-mail" type="text" placeholder="e-mail">
+                <span class="input-border"></span>
+            </div>
+            <div class="campo">
+                <input id="senha" type="text" placeholder="senha">
+                <span class="input-border"></span>
+            </div>
+        </form>
+        <button id="botao2">Entrar</button>
+        <h3 id="cadastro-text">Não tem cadastro ainda? Faça o seu agora mesmo</h2>
+        <button id="botao3">Cadastrar</button>
+    </div>
+
+</body>
+<script src='main.js'></script>
+</html>
